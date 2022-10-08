@@ -1,0 +1,10 @@
+.background_container{
+    display: flex;
+}
+
+.background_container div {
+    background: peachpuff;
+    border: 4px brown;
+    height: 200px;
+    flex: 1 1 0%;
+}
