@@ -1,7 +1,12 @@
+body{
+    margin: 0;
+}
+
 .background_container {
     background: black;
     border: 2px red;
     border-style: solid;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,9 +20,9 @@
     border: 2px yellow;
     border-style: solid;
     display: flex;
-    object-fit: fill;
     width: 500px;
     height: 500px;
+    flex: 1 1 0%;
 
 }
 
