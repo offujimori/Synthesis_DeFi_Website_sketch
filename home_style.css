@@ -1,10 +1,29 @@
-.background_container{
+.background_container {
+    background: black;
+    border: 2px red;
+    border-style: solid;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    flex: 1 1 0%;
 }
 
-.background_container div {
-    background: peachpuff;
-    border: 4px brown;
-    height: 200px;
-    flex: 1 1 0%;
+
+.background_container .background_color .background_art{
+    background-color: black;
+    border: 2px yellow;
+    border-style: solid;
+    display: flex;
+    object-fit: fill;
+    width: 500px;
+    height: 500px;
+
+}
+
+.background_container .background_color .background_art .logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
 }
