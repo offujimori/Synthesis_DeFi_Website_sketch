@@ -29,6 +29,7 @@ body{
     border: 2px yellow;
     border-style: solid;
     display: flex;
+    position: absolute;
     margin-top: 50px;
     width: 700px;
     height: 700px;
