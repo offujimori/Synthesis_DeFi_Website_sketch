@@ -10,25 +10,49 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 700px;
     flex: 1 1 0%;
 }
 
-
-.background_container .background_color .background_art{
-    background-color: black;
+.background_container .background_header{
+    background: grey;
     border: 2px yellow;
     border-style: solid;
     display: flex;
-    width: 500px;
-    height: 500px;
-    flex: 1 1 0%;
-
+    position: absolute;
+    top: 0%;
+    width: 1000px;
+    height: 100px; 
 }
 
-.background_container .background_color .background_art .logo{
+.background_container .background_symbol{
+    border: 2px yellow;
+    border-style: solid;
+    display: flex;
+    margin-top: 50px;
+    width: 700px;
+    height: 700px;
+}
+
+.background_container .background_name{
+    border: 2px yellow;
+    border-style: solid;
+    display: flex;
+    position: absolute;
+    margin-top: 575px;
+    margin-right: 40px;
+    width: 500px;
+    height: 500px;    
+}
+
+.background_container .background_symbol .symbol{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
 
+.background_container .background_name .name{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

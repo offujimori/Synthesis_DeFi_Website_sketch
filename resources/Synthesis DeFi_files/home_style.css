@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.background_container {
+    background: black;
+    border: 2px red;
+    border-style: solid;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    flex: 1 1 0%;
+}
+
+
+.background_container .background_color .background_symbol{
+    background-color: rgb(88, 88, 88);
+    border: 2px yellow;
+    border-style: solid;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex: 1 1 0%;
+
+}
+
+.background_container .background_color .background_symbol .symbol{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.background_container .background_color .background_name .name{
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+
+}
+
+.content {
+    background: black;
+    border: 2px orange;
+    border-style: solid;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    flex: 1 1 0%;
+}
